@@ -1,8 +1,8 @@
 #include "../include/main.hpp"
 
 int rnd(int h){
-std::srand(std::time(nullptr)); // use current time as seed for random generator
-int random_variable=std::rand();
+std::srand(std::time(nullptr));
+int random_variable=(std::rand()/RAND_MAX)*1000000000000000;
 return random_variable;
 }
 
