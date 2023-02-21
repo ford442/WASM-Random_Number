@@ -30,7 +30,7 @@ document.getElementById('di').click();
 setInterval(function(){
 var ans=Module.ccall('r4nd','Number',['Number'],[rnndo]);
 document.getElementById('answer').innerHTML=ans;
-},1500);
+},150);
 },950);
 }
   
