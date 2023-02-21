@@ -30,8 +30,8 @@ document.getElementById('di').click();
 setInterval(function(){
 var ans=Module.ccall('r4nd','Number',['Number'],[rnndo]);
 document.getElementById('answer').innerHTML=ans;
+},250);
 },150);
-},950);
 }
   
 document.getElementById('pmhig').innerHTML=parseInt(window.innerHeight,10);
