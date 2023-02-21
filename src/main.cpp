@@ -1,5 +1,19 @@
 #include "../include/main.hpp"
 
+void rnd(int h){
+return 55;
+}
+
+extern"C"{
+ 
+void rand(int h){
+int g=rnd(h);
+return g;
+}
+  
+}
+
+
 EM_JS(void,js_main,(),{
 
 "use strict";
