@@ -1,8 +1,8 @@
 #include "../include/main.hpp"
 
 int rnd(int h){
-int random_number=std::experimental::randint(0,1000000);
-return random_number;
+int random_variable=std::rand();
+return random_variable;
 }
 
 extern"C"{
