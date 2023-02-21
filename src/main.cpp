@@ -1,7 +1,8 @@
 #include "../include/main.hpp"
 
 int rnd(int h){
-return 55;
+int random_number=std::experimental::randint(0,1000000);
+return random_number;
 }
 
 extern"C"{
