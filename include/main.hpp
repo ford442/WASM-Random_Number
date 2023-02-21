@@ -1,3 +1,3 @@
 #pragma once
-#include <cstdlib>
+#include <experimental/random>
 #include <emscripten.h>
