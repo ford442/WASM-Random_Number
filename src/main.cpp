@@ -1,6 +1,7 @@
 #include "../include/main.hpp"
 
 int rnd(int h){
+std::srand(std::time(nullptr)); // use current time as seed for random generator
 int random_variable=std::rand();
 return random_variable;
 }
