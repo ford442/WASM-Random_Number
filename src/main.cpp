@@ -6,7 +6,7 @@ return 55;
 
 extern"C"{
  
-int rand(int h){
+int r4nd(int h){
 int g=rnd(h);
 return g;
 }
@@ -25,7 +25,7 @@ var rnndo=document.getElementById('rnd').innerHTML;
 document.getElementById('circle').width=window.innerWidth;
 document.getElementById('circle').height=window.innerHeight;
 document.getElementById('di').click();
-Module.ccall('rand','Number',['Number'],[rnndo]);
+Module.ccall('r4nd','Number',['Number'],[rnndo]);
 },950);
 }
   
