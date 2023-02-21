@@ -2,7 +2,7 @@
 
 int rnd(int h){
 std::srand(std::time(nullptr));
-int random_variable=(std::rand()/RAND_MAX)*1000000000000000;
+long random_variable=(std::rand()/RAND_MAX)*1000000000000000;
 return random_variable;
 }
 
