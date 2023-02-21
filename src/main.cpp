@@ -1,12 +1,12 @@
 #include "../include/main.hpp"
 
-void rnd(int h){
+int rnd(int h){
 return 55;
 }
 
 extern"C"{
  
-void rand(int h){
+int rand(int h){
 int g=rnd(h);
 return g;
 }
