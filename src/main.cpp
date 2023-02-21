@@ -7,10 +7,11 @@ EM_JS(void,js_main,(),{
 function normalResStart(){
 setTimeout(function(){
 document.getElementById('shut').innerHTML=2;
+var rnndo=document.getElementById('rnd').innerHTML;
 document.getElementById('circle').width=window.innerWidth;
 document.getElementById('circle').height=window.innerHeight;
 document.getElementById('di').click();
-Module.ccall('str');
+Module.ccall('rand','Number',['Number'],[rnndo]);
 },950);
 }
   
